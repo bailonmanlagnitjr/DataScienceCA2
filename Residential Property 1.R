@@ -199,7 +199,7 @@ str(tfile_data)
 head(tfile_data)                                           
 
 # reorder the columbs so that related fields are beside each other
-ufile_data <- tfile_data[,c(1,2,3,4,5,19,20,21,7,8,6,9,10,11,24,22,23,12,25,13,26,14,15,16,17,18)]
+ufile_data <- tfile_data[,c(1,2,3,4,5,17,18,19,7,8,6,9,10,11,22,20,21,12,23,13,24,14,15,16)]
 str(ufile_data)
 head(ufile_data)                                           
 
